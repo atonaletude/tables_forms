@@ -1,0 +1,58 @@
+<html>
+
+<head>
+<link href = "css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<h1>Jazz Musicians and Instruments</h1>
+<table>
+<thead>
+  <tr>
+    <th scope="col">Name</th>
+    <th scope="col">Instrument</th>
+    <th scope="col">Composition</th>
+  </tr>
+</thead>
+  <tr class="odd">
+    <td>Clifford Brown</td>
+    <td>Trumpet</td>
+    <td>Joy Spring</td>
+  </tr>
+  <tr>
+    <td> Dizzy Gillespie</td>
+    <td> Trumpet</td>
+    <td> Manteca</td>
+  </tr>
+  <tr class="odd">
+    <td>Duke Ellington</td>
+    <td>Piano</td>
+    <td>C Jam Blues</td>
+  </tr>
+</table>
+
+<div id= "form">
+<fieldset>
+  <legend>New Entry</legend>
+  <label>Name:<br />
+  <input type="text" name="Name" /></label><br />
+  <label>Instrument:<br />
+  <input type="text" name="Instrument" /></label><br />
+  <label>Composition:<br />
+  <input type="text" name="Composition" /></label><br />
+</fieldset>
+</div>
+
+
+<script>
+var colors = ['red','yellow','blue'];
+
+var el = document.getElementById('colors');
+el.textContent = colors[2];
+
+
+</script>
+
+</body>
+</html>

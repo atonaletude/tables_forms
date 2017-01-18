@@ -1,0 +1,45 @@
+
+body
+{ background-color: lightblue;
+
+
+}
+
+
+
+h1
+{
+text-align:center;
+
+}
+
+table {
+
+text-align: center;
+width: 800px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+th, td {
+
+padding: 7px 10px 10px 10px;
+}
+
+th {
+
+  border-bottom: 2px solid;
+  text-transform: uppercase;
+}
+
+tr.odd {
+
+background-color: grey;
+
+}
+
+#form {
+padding-top: 50px;
+
+}
